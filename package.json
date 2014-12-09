@@ -21,6 +21,7 @@
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
         , "distributed-message"     : "0.1.x"
+        , "clone"                   : "0.1.x"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
