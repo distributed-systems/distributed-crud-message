@@ -11,4 +11,13 @@ CRUD specific distributed framework message
 [![Build Status](https://travis-ci.org/eventEmitter/distributed-crud-message.png?branch=master)](https://travis-ci.org/eventEmitter/distributed-crud-message)
 
 
-## usage
+## API
+
+### Constructor
+
+	var CRUDMessage = require('distributed-crud-message');
+
+
+	new CRUDMessage({
+
+	});

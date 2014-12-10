@@ -1,7 +1,7 @@
 {
       "name"                        : "distributed-crud-message"
     , "description"                 : "CRUD specific distributed framework message"
-    , "version"                     : "0.1.0"
+    , "version"                     : "0.1.1"
     , "homepage"                    : "https://github.com/eventEmitter/distributed-crud-message"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
     , "licence"                     : "mit"
@@ -19,9 +19,10 @@
           "ee-class"                : "1.0.x"
         , "ee-event-emitter"        : "0.1.x"
         , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
+        , "ee-log"                  : "0.3.x"
         , "distributed-message"     : "0.1.x"
         , "clone"                   : "0.1.x"
+        , "ee-arguments"            : "1.0.x"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
