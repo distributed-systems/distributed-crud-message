@@ -1,36 +1,35 @@
 {
-      "name"                        : "distributed-crud-message"
-    , "description"                 : "CRUD specific distributed framework message"
-    , "version"                     : "0.1.1"
-    , "homepage"                    : "https://github.com/eventEmitter/distributed-crud-message"
-    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
-    , "licence"                     : "mit"
+      "name"                            : "distributed-crud-message"
+    , "description"                     : "CRUD specific distributed framework message implemenation"
+    , "version"                         : "0.1.2"
+    , "homepage"                        : "https://github.com/eventEmitter/distributed-crud-message"
+    , "author"                          : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
+    , "licence"                         : "mit"
     , "repository": {
-          "url"                     : "https://github.com/eventEmitter/distributed-crud-message.git"
-        , "type"                    : "git"
+          "url"                         : "https://github.com/eventEmitter/distributed-crud-message.git"
+        , "type"                        : "git"
     }
     , "engines": {
-        "node"                      : ">=v0.10.17"
+        "node"                          : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/distributed-crud-message/issues"
+        "url"                           : "https://github.com/eventEmitter/distributed-crud-message/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.3.x"
-        , "distributed-message"     : "0.1.x"
-        , "clone"                   : "0.1.x"
-        , "ee-arguments"            : "1.0.x"
+          "ee-class"                    : "1.0.x"
+        , "ee-event-emitter"            : "0.1.x"
+        , "ee-types"                    : "0.1.x"
+        , "ee-log"                      : "0.3.x"
+        , "distributed-request-message" : "0.1.x"
+        , "clone"                       : "0.1.x"
+        , "ee-arguments"                : "1.0.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                       : "1.17.x"
     }
     , "optionalDependencies": {}
-    , "keywords"                    : []
-    , "private"                     : true
+    , "keywords"                        : ["distributed", "distributed-framework", "message", "crud"]
     , "scripts": {
-        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+        "test"                          : "./node_modules/mocha/bin/mocha --reporter spec"
     }
 }
